@@ -7,5 +7,6 @@ setup(
     author="n0ctis",
     author_email="HiddenTrigger@proton.me",
     packages=find_packages(),
+    entry_points={"console_scripts": ["sysmon=sysmon.cli:main"]},
     python_requires=">=3.8",
 )

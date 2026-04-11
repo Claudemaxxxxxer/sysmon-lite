@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="sysmon-lite",
-    version="0.1.0",
+    version="0.3.0",
     description="Tiny system monitor",
     author="n0ctis",
     packages=find_packages(),
